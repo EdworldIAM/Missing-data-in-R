@@ -2,7 +2,7 @@ library(readxl)
 library(dplyr)
 
 #Abrimos el archivo exel y cambiamos el tipo de datos de algunas columnas
-CalibrationMissingData <- read_excel("C:/Users/junio/Desktop/Unidad 2/CalibrationMissingData.xlsx", 
+CalibrationMissingData <- read_excel("DATA/CalibrationMissingData.xlsx", 
                                      col_types = c("text", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", 
                                                    "numeric", "numeric"))
 
